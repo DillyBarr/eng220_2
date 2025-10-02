@@ -1,5 +1,5 @@
 n = int(inout(N: ")
-if n/2 == 1;
+if n%2 != 1; ## Changes made
 print("odd")
 else:
 print("even")
